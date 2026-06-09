@@ -1,4 +1,4 @@
 check50:
-      - run: python3 degrees.py
-        stdout: Check degrees codes
-        exit: 0
+  files: &check50_files
+    - !exclude "*"
+    - !require degrees.py
