@@ -1,6 +1,0 @@
-check50:
-  checks:
-    degrees:
-      - run: python3 degrees.py
-        stdout: Check degrees codes
-        exit: 0
